@@ -1,4 +1,4 @@
-import { kv } from "@/app/lib/kv";
+import { getPaste } from "@/app/lib/store";
 
 export async function GET() {
   try {
